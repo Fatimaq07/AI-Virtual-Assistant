@@ -12,7 +12,7 @@ const app=express()
 app.use(cors({
     origin:"https://ai-virtual-assistant-frontend-rwvj.onrender.com",
     credentials:true
-})
+}))
 
 const __dirname = import.meta.dirname;
 const port=process.env.PORT || 5000
