@@ -5,7 +5,7 @@ export const userDataContext = createContext()
 
 function UserContext({ children }) {
   // Use .env variable if available, otherwise fallback to localhost
-  const serverUrl = import.meta.env.VITE_SERVER_URL || "http://localhost:8000"
+  const serverUrl = "https://ai-virtual-assistant0-backend.onrender.com"
 
   const [userData, setUserData] = useState(null)
   const [frontendImage, setFrontendImage] = useState(null)
