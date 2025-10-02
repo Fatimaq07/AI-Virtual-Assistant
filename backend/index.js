@@ -10,7 +10,7 @@ import geminiResponse from "./gemini.js"
 import path from "path"
 const app=express()
 app.use(cors({
-    origin:"https://ai-virtual-assistant-frontend-rwvj.onrender.com",
+    origin:"https://ai-virtual-assistant-frontend-o0wi.onrender.com",
     credentials:true
 }))
 
